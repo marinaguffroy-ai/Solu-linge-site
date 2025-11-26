@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solu'linge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Import de police-->
+ <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <!-- Bandeau de navigation -->
+  <header>
+    <nav class="navbar">
+      <a href="#accueil" class="logo">
+        <img src="images/logo+titre.svg" alt="Logo Solu'linge">
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Section Accueil -->
+  <section id="accueil" class="hero">
+    <div class="hero-content">
+      <h2>Bienvenue chez <span class="highlight">Solu'linge</span></h2>
+      <p>Nous vous accueillons pour prendre soin de votre linge dans une atmosphère chaleureuse et conviviale</p>
+      <a href="#contact" class="btn">Me contacter</a>
+      <a href="#horaires" class="btn">Horaires</a>
+    </div>
+
+<!-- Carrousel -->
+<div class="carousel">
+
+  <div class="slides">
+    <div class="slide"><img src="images/photo1.jpg" alt="Photo 1"></div>
+    <div class="slide"><img src="images/photo2.jpg" alt="Photo 2"></div>
+    <div class="slide"><img src="images/photo3.jpg" alt="Photo 3"></div>
+    <div class="slide"><img src="images/photo4.jpg" alt="Photo 4"></div>
+  </div>
+
+  <!-- Indicateurs -->
+  <div class="indicators">
+    <span data-index="0" class="dot active"></span>
+    <span data-index="1" class="dot"></span>
+    <span data-index="2" class="dot"></span>
+    <span data-index="3" class="dot"></span>
+  </div>
+</div>
+
+  <!-- Section Services -->
+  <section id="services" class="services">
+    <h2>Nos services</h2>
+    <div class="service-list">
+      <div class="service-card">
+        <h3>Prise en charge de votre linge</h3>
+        <p>Confiez-nous votre linge : lavage, séchage, pliage – nous nous occupons de tout pour vous&nbsp;!</p>
+        <a href="#tarifs" class="btn-small" data-open="prise">Voir tarifs</a>
+      </div>
+      <div class="service-card">
+        <h3>Location de linge</h3>
+        <p>Vous êtes de passage ? Découvrez nos lots de linge à la location (serviettes & draps)</p>
+        <a href="#tarifs" class="btn-small" data-open="location">Voir tarifs</a>
+      </div>
+    <div class="service-list">
+      <div class="service-card">
+        <h3>Teinture textile</h3>
+        <p>Vous voulez donner une seconde vie à un vêtement ? Confiez-le nous pour une teinture !</p>
+        <a href="#tarifs" class="btn-small" data-open="teinture">Voir tarifs</a>
+      </div>
+  </section>
+
+<!-- Tarifs -->
+<section id="tarifs" class="tarifs">
+
+  <div class="accordion">
+
+    <!-- Prise en charge -->
+    <div class="item">
+      <button class="acc-btn" id="btn-prise">
+        Prise en charge
+        <span class="arrow">❯</span>
+      </button>
+      <div class="acc-content">
+       <ul>
+        <li>Corbeille de linge lavé, séché, plié : 4€/kg</li>
+        <li>Corbeille de linge lavé, séché, repassé : 8€/kg</li>
+        <li> 
+      Repassage : 6/kg *
+        <br>
+        <small><em>* Hors chemises (2,50€/pièce) et robes (3€/pièce)</em></small>
+        </li>
+        <li>Couette synthétique lavée et séchée : 18,00 €</li>
+        <li> Pour les grosses pièces (couverture, oreiller, clic-clac, etc.) : me contacter</li>
+      </ul>
+    </div>
+  </div>
+
+    <!-- Location -->
+   <div class="item">
+      <button class="acc-btn" id="btn-location">
+        Location
+        <span class="arrow">❯</span>
+      </button>
+      <div class="acc-content">
+        <ul>
+          <li>Lots de draps, serviettes et tapis de bain : me contacter</li>
+        </ul>
+    </div>
+   </div>
+
+    <!-- Teinture -->
+     <div class="item">
+      <button class="acc-btn" id="btn-teinture">
+        Teinture
+        <span class="arrow">❯</span>
+      </button>
+      <div class="acc-content">
+        <ul>
+         <li>20€/pièce</li>
+        </ul>
+      </div>
+     </div>
+
+  </div>
+
+</section>
+
+<!-- Moyens de paiement -->
+ <section id="Moyens-paiement" class="paiement">
+<h3>Moyens de paiement acceptés</h3>
+<ul>
+  <li>Carte bancaire et espèces</li>
+</ul>
+ </section>
+
+<!-- Section Horaires -->
+  <section id="horaires" class="horaires">
+    <h2>Horaires</h2>
+
+    <div class="pair">
+      <p>Lundi / Mardi / Jeudi / Vendredi</p>
+      <p>9h00 - 12h30 / 14h30 - 18h30</p>
+    </div>
+
+    <div class="pair">
+      <p>Mercredi</p>
+      <p>Livraison</p>
+    </div>
+
+    <div class="pair">
+      <p>Samedi</p>
+      <p>12h30</p>
+    </div>
+
+    <div class="pair"></div>
+      <p>Dimanche</p>
+      <p>Fermé</p>
+    </div>
+  </section>
+  
+<!-- Section Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>📍 Je ne connais pas l'adresse, 64270 Salies-de-Béarn</p>
+    <p>📞 06 32 37 85 97</p>
+    <p>✉️ <a href="mailto:contact@solulinge.fr">contact@solulinge.fr</a></p>
+
+    <!-- Carte Google Maps intégrée -->
+     <div class="map-container">
+      <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2661.769123426999!2d-0.9248548999999819!3d43.470571000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd56c06da138cd4d%3A0xf4bd785dbcbc769f!2sMairie!5e1!3m2!1sfr!2sus!4v1760395981560!5m2!1sfr!2sus" width="600" height="450" style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy">
+    </iframe> 
+     </div>
+  </section>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>© 2025 Solu'linge – Tous droits réservés.</p>
+  </footer>
+
+  <script>
+let currentIndex = 0;
+const slides = document.querySelector('.slides');
+const dots = document.querySelectorAll('.dot');
+const total = dots.length;
+
+// --- Mise à jour du carrousel ---
+function updateCarousel() {
+  slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+  dots.forEach(d => d.classList.remove('active'));
+  dots[currentIndex].classList.add('active');
+}
+
+// --- Clic sur les petits ronds ---
+dots.forEach(dot => {
+  dot.onclick = () => {
+    currentIndex = parseInt(dot.dataset.index);
+    updateCarousel();
+  };
+});
+
+// --- Défilement automatique ---
+setInterval(() => {
+  currentIndex = (currentIndex + 1) % total;
+  updateCarousel();
+}, 10000); // toutes les 5 secondes
+</script>
+
+<script>
+const buttons = document.querySelectorAll(".acc-btn");
+
+buttons.forEach(btn => {
+  btn.addEventListener("click", () => {
+
+    const content = btn.nextElementSibling;
+
+    btn.classList.toggle("active");
+
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null; 
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+});
+</script>
+
+<script>
+document.querySelectorAll("[data-open]").forEach(link => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    const target = link.getAttribute("data-open");
+
+    // Aller à la section tarifs
+    document.querySelector("#tarifs").scrollIntoView({
+      behavior: "smooth"
+    });
+
+    // Fermer tous les accordéons
+    document.querySelectorAll(".acc-content").forEach(c => c.style.maxHeight = null);
+    document.querySelectorAll(".acc-btn").forEach(b => b.classList.remove("active"));
+
+    // Sélectionner et ouvrir celui demandé
+    const button = document.querySelector("#btn-" + target);
+    const content = button.nextElementSibling;
+
+    button.classList.add("active");
+    content.style.maxHeight = content.scrollHeight + "px";
+  });
+});
+</script>
+
+</body>
+</html>
